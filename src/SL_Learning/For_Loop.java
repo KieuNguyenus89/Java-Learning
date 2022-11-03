@@ -1,11 +1,14 @@
 package SL_Learning;
 
-public class Looping {
+public class For_Loop {
+    static int firstClass   = 800;
+    static int passMark  = 300;
 
     public static void main(String[] args) throws Exception{
 
         runAForLoop(100);
-        whileLoopExam();
+        runAReverseForLoop(30);
+
 
 
     }
@@ -16,13 +19,10 @@ public class Looping {
             System.out.println( "The number is " + i);
         }
     }
-    // While Loop
-    public static void whileLoopExam(){
-        int a =50;
-        while (a>0){
-            System.out.println( "The number is " + a);
-            a--;
+    public static void runAReverseForLoop( int maxNo) {
+        for (int i = maxNo; i > -10; i--) {
+            System.out.println("The number is " + i);
         }
-
     }
+
 }
