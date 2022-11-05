@@ -1,7 +1,8 @@
 package Floor_1;
 
 public class Flat_B1 {
-    public String bankInterestrate(String bankName){
+    public static int FatherrisHavingsomshare_Google  = 200;
+    public static String bankInterestrate(String bankName){
         String rate  = null;
         if(bankName.equals("JPMC")){rate = "6.6%";}
         if(bankName.equals("WellsFargo")){rate = "8.6%";}
